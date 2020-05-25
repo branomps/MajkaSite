@@ -1,0 +1,19 @@
+{
+  "name": "majkasite",
+  "version": "1.0.0",
+  "description": "Majka's personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branomps/MajkaSite.git"
+  },
+  "author": "Brano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branomps/MajkaSite/issues"
+  },
+  "homepage": "https://github.com/branomps/MajkaSite#readme"
+}
