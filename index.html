@@ -9,14 +9,40 @@
     <title>Maja - Home page</title>
     <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <style>
+      #block {
+         width: 300px;
+         height: 3000px;
+         background-color: cadetblue;
+      }
+    </style>
     </head>
-     <h1>Hello world I am using bootstrap.</h1>
     <body>
-
-      
-      <script src="./dist/js/jquery-slim.min.js"></script>
-      <script src="./dist/js/popper.min.js"></script>
-      <script src="./dist/js/bootstrap.js"></script>
+      <div class="container">
+        <nav class=" navbar fixed-top navbar-expand-md navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Majka</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Work<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="block"></div>
+    <script src="./dist/js/jquery-slim.min.js"></script>
+    <script src="./dist/js/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.js"></script>
     </body>
 </html>
 
