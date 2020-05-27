@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Webdesing Maria Siskova and Development Branislav Macosinec">
-    <meta name="description" content="This site is about emerging profesional web designer. Maja's site is a window into her work and experience.">
+    <meta name="author" content="Web design Maria Siskova and Development Branislav Macosinec">
+    <meta name="description" content="This site is about emerging professional web designer. Maja's site is a window into her work and experience.">
     <meta name="keywords" content="Web design, Poster, Banner, Corporate Identity, Design, Wire Frame, Advert, Icon, Icon system, Package design, Magazine layout"> 
     <title>Maja - Home page</title>
+    <!-- Fav Icon -->
     <link rel="icon" type="image/png" href="favicon.ico">
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="./font/css/all.min.css">
     <style>
-      .block {
+      nav{
+        background-color: #fff;
+      }
+        a.navbar-brand img#logo{
+          height: 55px;
+        }
+        button span.navbar-toggler-icon{
+          background-color: #666;
+        }
+        button:focus{
+          outline: 0px;
+        }
+        .fa-bars{
+          color: #333;
+        }
+        /*.fa-bars::after, .fa-bars::before :hover{
+          color: #dfab00;
+        }*/
+      .block{
          width: 300px;
          height: 3000px;
          background-color: cadetblue;
@@ -24,17 +47,17 @@
       section#footer{
         margin: 10px 0px 10px 0px;
       }
-      footer section sup#copyr {
+      footer section sup#copyr{
         font-size: 0.7rem;
       } 
     </style>
     </head>
     <body>
       <div class="container">
-        <nav class="container navbar fixed-top navbar-expand-md navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Majka</a>
+        <nav class="container navbar fixed-top navbar-expand-md">
+          <a class="navbar-brand" href="index.html"><img id="logo" src="logo.svg" alt="Logo Majka Siskova Graphic designer"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
