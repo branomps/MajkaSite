@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../..fonts/icon-fonts/icomoon.eot?6kgwoe');
+  src:  url('../..fonts/icon-fonts/icomoon.eot?6kgwoe#iefix') format('embedded-opentype'),
+    url('../..fonts/icon-fonts/icomoon.ttf?6kgwoe') format('truetype'),
+    url('../../fonts/icon-fonts/icomoon.woff') format('woff'),
+    url('../..fonts/icon-fonts/icomoon.svg') format('svg');
+  font-weight: lighter;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: 100;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 2;
+
+  /* Better Font Rendering =========== */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+.icon-menu:before {
+  content: "\e1000";
+}
+
+.icon-menu-1x {
+  font-size: 1em; }
+
+.icon-menu-2x {
+  font-size: 2em;
+}
+
+.icon-menu-3x {
+  font-size: 3em; }
+
+.icon-menu-4x {
+  font-size: 4em; }
+
+.icon-menu-5x {
+  font-size: 5em; }
+
+.icon-menu-6x {
+  font-size: 6em; }
+
+.icon-menu-7x {
+  font-size: 7em; }
+
+.icon-menu-8x {
+  font-size: 8em; }
+
+.icon-menu-9x {
+  font-size: 9em; }
+
+.icon-menu-10x {
+  font-size: 10em; }
