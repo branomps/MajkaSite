@@ -2,9 +2,78 @@
 html{
     font-size: 10px;
   }
+  /*** New Navbar ***********************************************************************************/
+  nav{
+    background-color: #fff;
+  }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+      a.navbar-brand img#logo{
+        height: 7rem;
+        margin-top: 3rem;
+      }
+      button:focus {
+
+        outline: 1px none;
+      }
+      .icon-menu{
+        color: #333;
+      }
+      .icon-menu:hover{
+        font-weight: 900;
+        color: #dfab00;
+      }
+      
+      .sidenav {
+        height: 25rem;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+    
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #333;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #dfab00;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      div#top-line{
+        height: 0.2rem;
+        background-color: #dfab00;
+        margin-top: 10.7rem;
+        margin-bottom: 2rem;
+      }
+      img#navbar-line{
+        padding-top: 0rem !important;
+      }
 
   /*** Navbar Settings *******************************************************************************/
-  nav{
+  /*nav{
     background-color: #fff;
   }
   .navbar {
@@ -51,13 +120,12 @@ html{
     a.nav-link:hover{
       color: #dfab00;
     }
-    img#navbar-line{
-      padding-top: 0rem !important;
-    }
-
+    
+*/
   /*** Main Settings *******************************************************************************/  
   .block{
-     width: 30rem;
+     margin-left: 1.5rem;
+     margin-right: 1.5rem;
      height: 150rem;
      background-color: cadetblue;
     }
@@ -78,16 +146,22 @@ html{
   footer section#footer{
     font-size: 1.4rem;
   } 
-
 /* Extra small devices (portrait phones, less than 576px)**************************************/
 @media (max-width: 575.98px) 
 {
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
   a.navbar-brand img#logo{
     margin-top: 3rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  button.navbar-toggler{
+  img#navbar-line{
+    display: block;
+  }
+  /*button.navbar-toggler{
     margin-top: 0rem;
     margin-right: 1rem;
   }
@@ -95,18 +169,26 @@ html{
     margin-right: 2rem;
   }
   a.nav-link{
-    border-bottom: 0.1rem solid red;
-  }
-  img#navbar-line{
-    display: none;
-  }
-
+    width: 33rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 0.1rem solid rgb(209, 207, 207);
+  }*/
+  
 }
 
 /* Small devices (landscape phones, less than 768px)*******************************************/
 @media (max-width: 767.98px) 
 {
-
+  /*a.nav-link{
+    width: 33rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 0.1rem solid rgb(209, 207, 207);
+  }
+  img#navbar-line{
+    display: none;
+  }*/
 }
 
 /* Medium devices (tablets, less than 992px)***************************************************/

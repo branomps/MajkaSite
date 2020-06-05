@@ -14,43 +14,30 @@
     <link rel="stylesheet" href="./dist/css/bootstrap.css">
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="./dist/css/icon-style.css">
-    
     <!-- Main style-->
     <link rel="stylesheet" href="./dist/css/main-style.css">
-    <link rel="stylesheet" href="/dist/main-style.css">
     <style>
       
     </style>
     </head>
     <body>
       <div class="container">
-        <nav class="container navbar fixed-top navbar-expand-md">
+        <nav class="container flex-container fixed-top">
           <a class="navbar-brand" href="index.html"><img id="logo" src="logo.svg" alt="Logo Majka Siskova Graphic designer"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-             <i class="icon-menu icon-menu-2x"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-            <div id="move-left" class="col-md-12" >  
-              <ul class="d-flex justify-content-end navbar-nav ml-auto mt-2 mt-md-0 ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Work<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-              <img id="navbar-line" src="img/line_2.svg">
+            <div id="sidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+              <a class="nav-link" href="index.html">Work</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </div>
-            </div>
+          <button class="navbar-toggler" onclick="openNav()"><i class="icon-menu icon-menu-2x"></i></button>
         </nav>
+        <img id="navbar-line" src="img/line_2.svg">
+        <div id="top-line"></div>
       </div>
-        
-      </div>
-      
-      <main class="container block"></main>
+      <main class="container block">
+         
+      </main>
         
 
       <footer class="container">
@@ -64,6 +51,7 @@
     <script src="./dist/js/jquery-slim.min.js"></script>
     <script src="./dist/js/popper.min.js"></script>
     <script src="./dist/js/bootstrap.js"></script>
+    <script src="./dist/js/nav.js"></script>
     </body>
 </html>
 
