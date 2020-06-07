@@ -77,29 +77,19 @@ html{
     padding-left: 1.5rem;
   }   
     div.project-box1{
-       background-color: chocolate;
-       height: 33rem;
-       width: 33rem;   
+       background-color: chocolate;  
      }
      div.project-box2{
-      background-color: blue;
-      height: 33rem;
-      width: 33rem;   
+      background-color: blue;    
     }
     div.project-box3{
-      background-color: grey;
-      height: 33rem;
-      width: 33rem;   
+      background-color: grey;    
     }
     div.project-box4{
-      background-color: rebeccapurple;
-      height: 33rem;
-      width: 33rem;   
+      background-color: rebeccapurple;   
     }
     div.project-box5{
-      background-color: lightcoral;
-      height: 33rem;
-      width: 33rem;   
+      background-color: lightcoral;   
     }
   /*** Footer Styles *******************************************************************************/
   footer section{
