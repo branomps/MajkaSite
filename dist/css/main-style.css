@@ -1,8 +1,8 @@
-/*** Global Settings *******************************************************************************/ 
+/*** Global Styles *******************************************************************************/ 
 html{
     font-size: 10px;
   }
-  /*** New Navbar ***********************************************************************************/
+  /*** Navbar Styles ***********************************************************************************/
   nav{
     background-color: #fff;
   }
@@ -13,11 +13,10 @@ html{
       justify-content: space-between;
     }
       a.navbar-brand img#logo{
-        height: 7rem;
+        height: 6rem;
         margin-top: 3rem;
       }
       button:focus {
-
         outline: 1px none;
       }
       .icon-menu{
@@ -64,16 +63,17 @@ html{
 
       div#top-line{
         height: 0.2rem;
-        background-color: #dfab00;
         margin-top: 10.7rem;
         margin-right: 1.5rem;
         margin-left: 1.5rem;
         margin-bottom: 2rem;
+        background-color: #dfab00;
+       
       }
       img#navbar-line{
         padding-top: 0rem !important;
       }
-  /*** Main Settings *******************************************************************************/  
+  /*** Main Styles *******************************************************************************/  
   main.container{
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -103,7 +103,7 @@ html{
       height: 33rem;
       width: 33rem;   
     }
-  /*** Footer Settings *******************************************************************************/
+  /*** Footer Styles *******************************************************************************/
   footer section{
     height: 3.6rem;
     border-top: 0.2rem solid #dfab00;
@@ -137,9 +137,20 @@ html{
 }
 
 /* Small devices (landscape phones, less than 768px)*******************************************/
-@media (max-width: 767.98px) 
+@media (min-width: 576px) and (max-width: 767.98px) 
 {
-  
+  button {
+    display: none;
+  }
+  sidenav {
+    width: 20rem;
+    height: 20rem;
+    position: fixed;
+    z-index: 1000;
+    top: 1rem;
+    left: 15rem;
+    background-color: #fff;
+  }
 }
 
 /* Medium devices (tablets, less than 992px)***************************************************/
