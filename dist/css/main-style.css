@@ -66,79 +66,52 @@ html{
         height: 0.2rem;
         background-color: #dfab00;
         margin-top: 10.7rem;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
         margin-bottom: 2rem;
       }
       img#navbar-line{
         padding-top: 0rem !important;
       }
-
-  /*** Navbar Settings *******************************************************************************/
-  /*nav{
-    background-color: #fff;
-  }
-  .navbar {
-    padding: 0rem 0rem;
-  }
-    a.navbar-brand img#logo{
-      height: 10rem;
-      margin-top: 3rem;
-    }
-    button span.navbar-toggler-icon{
-      background-color: #666;
-    }
-    button:focus{
-      outline: 0rem;
-    }
-    .icon-menu{
-      color: #333;
-    }
-    .icon-menu:hover{
-      font-weight: 900;
-      color: #dfab00;
-    }
-    ul.navbar-nav li{
-      font-size: 2rem;
-    }
-    div#move-left {
-      display:inline-flex;
-      flex-flow: column nowrap;
-      justify-content: flex-end;
-      padding-bottom: 1.5rem;
-      text-align: right;
-      text-transform: uppercase;
-    }
-    div#move-left.col-md-12 {
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-    }
-    div#move-left ul {
-      padding-bottom: 0.6rem;
-    }
-    a.nav-link{
-      color: #333;
-    }
-    a.nav-link:hover{
-      color: #dfab00;
-    }
-    
-*/
   /*** Main Settings *******************************************************************************/  
-  .block{
-     margin-left: 1.5rem;
-     margin-right: 1.5rem;
-     height: 150rem;
-     background-color: cadetblue;
+  main.container{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }   
+    div.project-box1{
+       background-color: chocolate;
+       height: 33rem;
+       width: 33rem;   
+     }
+     div.project-box2{
+      background-color: blue;
+      height: 33rem;
+      width: 33rem;   
     }
-
+    div.project-box3{
+      background-color: grey;
+      height: 33rem;
+      width: 33rem;   
+    }
+    div.project-box4{
+      background-color: rebeccapurple;
+      height: 33rem;
+      width: 33rem;   
+    }
+    div.project-box5{
+      background-color: lightcoral;
+      height: 33rem;
+      width: 33rem;   
+    }
   /*** Footer Settings *******************************************************************************/
-  footer.container{
+  footer section{
     height: 3.6rem;
     border-top: 0.2rem solid #dfab00;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     }
   section#footer{
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 2rem 0rem 1rem 0rem;
   }
   footer section sup#copyr{
     font-size: 0.7rem;
@@ -161,34 +134,12 @@ html{
   img#navbar-line{
     display: block;
   }
-  /*button.navbar-toggler{
-    margin-top: 0rem;
-    margin-right: 1rem;
-  }
-  div#move-left ul{
-    margin-right: 2rem;
-  }
-  a.nav-link{
-    width: 33rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-bottom: 0.1rem solid rgb(209, 207, 207);
-  }*/
-  
 }
 
 /* Small devices (landscape phones, less than 768px)*******************************************/
 @media (max-width: 767.98px) 
 {
-  /*a.nav-link{
-    width: 33rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-bottom: 0.1rem solid rgb(209, 207, 207);
-  }
-  img#navbar-line{
-    display: none;
-  }*/
+  
 }
 
 /* Medium devices (tablets, less than 992px)***************************************************/
