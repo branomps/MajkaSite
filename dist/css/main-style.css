@@ -83,6 +83,33 @@ html{
     div.project-box5{
       background-color: lightcoral;   
     }
+    div.project-box6{
+      background-color: chocolate;  
+   }
+
+    div.project-box7{
+     background-color: blue;    
+   }
+
+   div.project-box8{
+     background-color: grey;    
+   }
+
+   div.project-box9{
+    background-color: chocolate;  
+  }
+
+    div.project-box10{
+      background-color: blue;    
+    }
+
+    div.project-box11{
+      background-color: grey;    
+    }
+
+    div.project-box12{
+      background-color: rebeccapurple;   
+    }
 
   /*** Footer Styles *******************************************************************************/
   footer section{
