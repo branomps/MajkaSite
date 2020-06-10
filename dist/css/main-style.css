@@ -8,6 +8,13 @@ html{
   nav{
     background-color: #fff;
   }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
     a.navbar-brand img#logo{
       height: 8rem;
     }
@@ -21,23 +28,35 @@ html{
     }
 
     .sidenav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
       width: 40rem;
       height: 5rem;
-      position: fixed;
       padding-top: 1.5rem;
       z-index: 1000;
       top: 1rem;
-      overflow-x: unset;
       background-color: #fff;
     }
 
     .sidenav a {
-      display: flex;
       text-decoration: none;
       font-size: 2.3rem;
       color: #333;  
     }
+        
+    .sidenav a:hover {
+      color: #dfab00;
+    }
 
+    div#top-line{
+      height: 0.2rem;
+      margin-top: 10.7rem;
+      margin-bottom: 2rem;
+      background-color: #dfab00; 
+    }
+     
 
   /*** Main Styles *******************************************************************************/  
   main.container{
@@ -89,13 +108,12 @@ html{
 /* Extra small devices (portrait phones, less than 576px)**************************************/
 @media (max-width: 575.98px) 
 {
-  .flex-container {
+  .flex-container-menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-between;
   }
-
+  
   a.navbar-brand img#logo{
     height: 6rem;
     margin-top: 3rem;
@@ -133,6 +151,8 @@ html{
   }
     
   .sidenav a {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     padding: 0.8rem 2rem 0.8rem 2rem;
@@ -141,32 +161,15 @@ html{
     color: #333;
     transition: 0.3s;
   }
-      
-  .sidenav a:hover {
-    color: #dfab00;
-  }
-
+  
   .sidenav .closebtn {
     display: block;
     position: absolute;
     top: 0;
-    right: 2.5rem;
+    right: 0rem;
     font-size: 3.6rem;
-    margin-left: 5.0rem;
   }
 
-  div#top-line{
-    height: 0.2rem;
-    margin-top: 10.7rem;
-    margin-bottom: 2rem;
-    background-color: #dfab00; 
-  }
-
-  img#navbar-line{
-    display: block;
-    padding-top: 0rem !important;
-  }
-  
 }
 
 
