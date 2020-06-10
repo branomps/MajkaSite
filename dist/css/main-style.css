@@ -17,6 +17,10 @@ html{
 
     a.navbar-brand img#logo{
       height: 8rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
     }
 
     button {
@@ -31,10 +35,11 @@ html{
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: space-between;
+      align-items: center;
       width: 40rem;
-      height: 5rem;
+      height: 9.5rem;
       padding-top: 1.5rem;
+      padding-left: 10rem;
       z-index: 1000;
       top: 1rem;
       background-color: #fff;
@@ -43,6 +48,7 @@ html{
     .sidenav a {
       text-decoration: none;
       font-size: 2.3rem;
+      padding-left: 3rem;
       color: #333;  
     }
         
@@ -52,7 +58,7 @@ html{
 
     div#top-line{
       height: 0.2rem;
-      margin-top: 10.7rem;
+      margin-top: 10.5rem;
       margin-bottom: 2rem;
       background-color: #dfab00; 
     }
@@ -197,6 +203,10 @@ html{
     font-size: 3.6rem;
   }
 
+  div#top-line{
+    margin-top: 9.5rem;
+  }
+   
 }
 
 
