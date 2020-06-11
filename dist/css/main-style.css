@@ -68,9 +68,47 @@ html{
   main.container{
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+
+  .row{
+    margin-left: 0rem;
+    margin-right: 0rem;
   } 
 
-    div.project-box1{
+  div.project-box{
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+ 
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+  }
+  
+  .project-link:hover .project-overlay {
+    opacity: 0.8;
+  }
+  
+  .project-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    /*div.project-box1{
        background-color: chocolate;  
     }
 
@@ -115,7 +153,7 @@ html{
 
     div.project-box12{
       background-color: rebeccapurple;   
-    }
+    }*/
 
   /*** Footer Styles *******************************************************************************/
   footer section{
@@ -141,6 +179,7 @@ html{
 /* Extra small devices (portrait phones, less than 576px)**************************************/
 @media (max-width: 575.98px) 
 {
+  
   .flex-container-menu {
     display: flex;
     flex-direction: column;
