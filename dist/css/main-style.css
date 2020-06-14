@@ -138,14 +138,15 @@ html{
   }
 
   #about-link{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #333;
     background-color: #dfab00;
-    padding: 1rem 2rem;
+    padding: 0.3rem 1rem;
     margin: 3rem 0rem;
-    border-radius: 10rem;
-    box-shadow: 0.1rem 0.1rem #333;  
+    border: 0rem;
+    border-radius: 3rem;
+    box-shadow: 0.1rem 0.1rem #666;
   }
 
   #about-link:hover{
@@ -154,8 +155,8 @@ html{
     transition: .5s ease;
   }
 
-  .aarrow{
-    font-size: 2.5rem;
+  .arrow{
+    font-size: 1.8rem;
     padding-bottom: 0.3;
     padding-left: 0.5rem;
   }
