@@ -246,6 +246,11 @@ html{
     align-items: center;
   }
   /* START Joy tea project styles *******************************************************************/
+  
+  #project-sec-img-bus {
+    height: 89%;
+  }
+  
   #sec-decsription-color-squar1 {
     background-color: #D8E9BD;
     width: 7rem;
@@ -530,6 +535,7 @@ html{
     padding-left: 1.5rem;
   }
    /* START Joy tea project styles *******************************************************************/
+   
    #sec-decsription-color-squar1 {
     width: 8rem;
     height: 10rem;
