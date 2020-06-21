@@ -221,22 +221,38 @@ html{
     margin-bottom: 3rem;
     border-bottom: 0.1rem solid #fff;
   }
-
-  .sec-description-img {
+  
+  img#sec-description-img-jt {
+    width: 90%;
     padding-top: 8rem;
     padding-right: 5rem;
     padding-bottom: 0.5rem;
     padding-left: 5rem;
   }
 
-  .sec-description-type {
+  img#sec-description-img-aa{
+    width:90%;
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 0.5rem;
+    padding-left: 7rem;
+  }
+
+  img#sec-description-type-jt {
     padding-top: 0.5rem;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 0.5rem;
   }
+
+  img#sec-description-type-aa {
+    padding-top: 1.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.5rem;
+  }
   
-  #sec-decsription-wrap {
+  #sec-description-wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -244,41 +260,62 @@ html{
     align-items: center;
   }
 
-  .sec-decsription-color-sec {
+  .sec-description-color-sec {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
   }
-  /* START Joy tea project styles *******************************************************************/
+  /* START project styles *******************************************************************/
   
   #project-sec-img-bus {
     height: 89%;
   }
-  
-  #sec-decsription-color-squar1 {
+
+  #color-jt-squar1 {
     background-color: #D8E9BD;
-    width: 7rem;
-    height: 9rem;
   }
 
-  #sec-decsription-color-squar2 {
+  #color-jt-squar2 {
     background-color: #FFD184;
+  }
+
+  #color-jt-squar3 {
+    background-color: #CBCACA;
+  }
+  
+  #color-aa-squar1 {
+    background-color: #BCAB62;
+  }
+
+  #color-aa-squar2 {
+    background-color: #FFFFFF;
+  }
+
+  #color-aa-squar3 {
+    background-color: #000000;
+  }
+
+  .sec-description-color-squar1 {
     width: 7rem;
     height: 9rem;
   }
 
-  #sec-decsription-color-squar3 {
-    background-color: #CBCACA;
+  .sec-description-color-squar2 {
     width: 7rem;
     height: 9rem;
   }
-  /* END Joy tea project styles *******************************************************************/
-  .sec-decsription-color-num-block {
+
+  .sec-description-color-squar3 {
+    width: 7rem;
+    height: 9rem;
+  }
+  /* END project styles *******************************************************************/
+  .sec-description-color-num-block {
     margin-left: 1rem;
   }
 
-  .sec-decsription-color-number {
+  .sec-description-color-number {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -289,36 +326,36 @@ html{
     margin-bottom: 0.5rem;
   }
 
-  .decsription-color-number-left {
+  .description-color-number-left {
     display: flex;
-    width: 0.4rem;
+    width: 0.1rem;
     justify-content: start;
   }
 
-  .decsription-color-number-center {
+  .description-color-number-center {
     display: flex;
     width: 0.4rem;
     justify-content: center;
   }
-  .decsription-color-number-right {
+  .description-color-number-right {
     display: flex;
     width: 0.4rem;
     justify-content: end;
   }
 
-  .sec-decsription-illus-sec {
+  .sec-description-illus-sec {
     display: flex;
     width: 10rem;
     height: 10rem;
   }
   
-  .sec-decsription-pattern-item1 {
+  .sec-description-pattern-item1 {
     display: flex;
     width: 9rem;
     margin-bottom: 0.5rem;
   }
 
-  .sec-decsription-pattern-item2{
+  .sec-description-pattern-item2{
     display: flex;
     background-color: #fff;
     width: 9rem;
@@ -456,27 +493,26 @@ html{
     padding-left: 0.5rem;
   }
 
-  /* START Joy tea project styles *******************************************************************/
-  #sec-decsription-color-squar1 {
+  .sec-description-color-squar1 {
     width: 5rem;
     height: 7rem;
   }
 
-  #sec-decsription-color-squar2 {
+  .sec-description-color-squar2 {
     width: 5rem;
     height: 7rem;
   }
 
-  #sec-decsription-color-squar3 {
+  .sec-description-color-squar3 {
     width: 5rem;
     height: 7rem;
   }
-  /* END Joy tea project styles *******************************************************************/
-  .sec-decsription-color-num-block {
+  
+  .sec-description-color-num-block {
     margin-left: 1rem;
   }
 
-  .sec-decsription-color-number {
+  .sec-description-color-number {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -487,31 +523,31 @@ html{
     margin-bottom: 0.5rem;
   }
 
-  .decsription-color-number-left {
+  .description-color-number-left {
     width: 0.4rem;
     justify-content: start;
   }
 
-  .decsription-color-number-center {
+  .description-color-number-center {
     width: 0.4rem;
     justify-content: center;
   }
-  .decsription-color-number-right {
+  .description-color-number-right {
     width: 0.4rem;
     justify-content: end;
   }
 
-  .sec-decsription-illus-sec {
+  .sec-description-illus-sec {
     width: 8rem;
     height: 8rem;
   }
   
-  .sec-decsription-pattern-item1 {
+  .sec-description-pattern-item1 {
     width: 7rem;
     margin-bottom: 0.5rem;
   }
 
-  .sec-decsription-pattern-item2{
+  .sec-description-pattern-item2{
     width: 7rem;
   }
 
@@ -523,6 +559,11 @@ html{
 /* Small devices (landscape phones, less than 768px)*******************************************/
 @media (min-width: 576px) and (max-width: 767.98px) 
 {
+  #project-text {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0rem 5rem 5rem 5rem;
+  }
   .sec-description-h3 {
     font-size: 2.3rem;
     padding-bottom: 1rem;
@@ -539,28 +580,27 @@ html{
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
-   /* START Joy tea project styles *******************************************************************/
    
-   #sec-decsription-color-squar1 {
+   .sec-description-color-squar1 {
     width: 8rem;
     height: 10rem;
   }
 
-  #sec-decsription-color-squar2 {
+  .sec-description-color-squar2 {
     width: 8rem;
     height: 10rem;
   }
 
-  #sec-decsription-color-squar3 {
+  .sec-description-color-squar3 {
     width: 8rem;
     height: 10rem;
   }
-  /* END Joy tea project styles *******************************************************************/
-  .sec-decsription-color-num-block {
+
+  .sec-description-color-num-block {
     margin-left: 1.5rem;
   }
 
-  .sec-decsription-color-number {
+  .sec-description-color-number {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -571,31 +611,31 @@ html{
     margin-bottom: 0.5rem;
   }
 
-  .decsription-color-number-left {
+  .description-color-number-left {
     width: 0.4rem;
     justify-content: start;
   }
 
-  .decsription-color-number-center {
+  .description-color-number-center {
     width: 0.4rem;
     justify-content: center;
   }
-  .decsription-color-number-right {
+  .description-color-number-right {
     width: 0.4rem;
     justify-content: end;
   }
 
-  .sec-decsription-illus-sec {
+  .sec-description-illus-sec {
     width: 11rem;
     height: 11rem;
   }
   
-  .sec-decsription-pattern-item1 {
+  .sec-description-pattern-item1 {
     width: 10rem;
     margin-bottom: 1.5rem;
   }
 
-  .sec-decsription-pattern-item2{
+  .sec-description-pattern-item2{
     width: 10rem;
   }
 
@@ -627,30 +667,28 @@ html{
     padding-left: 3.5rem;
   }
 
-  /* START Joy tea project styles *******************************************************************/
-  #sec-decsription-color-squar1 {
+  .sec-description-color-squar1 {
     width: 9rem;
     height: 11rem;
   }
 
-  #sec-decsription-color-squar2 {
+  .sec-description-color-squar2 {
 
     width: 9rem;
     height: 11rem;
   }
 
-  #sec-decsription-color-squar3 {
+  .sec-description-color-squar3 {
     width: 9rem;
     height: 11rem;
   }
 
-  /* END Joy tea project styles *******************************************************************/
   
-  .sec-decsription-color-num-block {
+  .sec-description-color-num-block {
     margin-left: 1rem;
   }
 
-  .sec-decsription-color-number {
+  .sec-description-color-number {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -661,38 +699,37 @@ html{
     margin-bottom: 0.5rem;
   }
 
-  .decsription-color-number-left {
+  .description-color-number-left {
     display: flex;
     width: 0.4rem;
     justify-content: start;
   }
 
-  .decsription-color-number-center {
+  .description-color-number-center {
     display: flex;
     width: 0.4rem;
     justify-content: center;
   }
-  .decsription-color-number-right {
+  .description-color-number-right {
     display: flex;
     width: 0.4rem;
     justify-content: end;
   }
 
-  .sec-decsription-illus-sec {
+  .sec-description-illus-sec {
     display: flex;
     width: 12rem;
     height: 12rem;
   }
   
-  .sec-decsription-pattern-item1 {
+  .sec-description-pattern-item1 {
     display: flex;
     width: 11rem;
     margin-bottom: 0.5rem;
   }
 
-  .sec-decsription-pattern-item2{
+  .sec-description-pattern-item2{
     display: flex;
-    background-color: #fff;
     width: 11rem;
   }
 
