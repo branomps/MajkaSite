@@ -116,10 +116,6 @@ html{
       align-items: center;  
     }
 
-    #about-img{
-
-    }
-
     #about-text{
       font-size: 1.8rem;
       font-weight: 400;
@@ -236,49 +232,20 @@ html{
     border-bottom: 0.1rem solid #333;
   }
   
-  img#sec-description-img-jt {
+  img.des-img{
+    width: 80%;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+  }
+
+  img.des-type {
     width: 90%;
-    padding-top: 8rem;
-    padding-right: 5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 5rem;
-  }
-
-  img#sec-description-img-aa{
-    width:90%;
-    padding-top: 3rem;
-    padding-right: 4rem;
-    padding-bottom: 0.5rem;
-    padding-left: 7rem;
-  }
-
-  img#sec-description-img-fin{
-    width:90%;
-    padding-top: 3rem;
-    padding-right: 4rem;
-    padding-bottom: 0.5rem;
-    padding-left: 7rem;
-  }
-
-  img#sec-description-type-jt {
-    padding-top: 0.5rem;
-    padding-right: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 0.5rem;
-  }
-
-  img#sec-description-type-aa {
-    padding-top: 1.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 2.5rem;
-  }
-  
-  img#sec-description-type-fin {
-    padding-top: 1.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
   }
   
   #sec-description-wrap {
@@ -517,20 +484,6 @@ html{
     margin: 0rem 1.5rem 3rem 1.5rem;
   }
 
-  .sec-description-img {
-    padding-top: 1.5rem;
-    padding-right: 5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 5rem;
-  }
-  
-  .sec-description-type {
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-  }
-
   .sec-description-color-squar1 {
     width: 5rem;
     height: 7rem;
@@ -602,6 +555,7 @@ html{
     text-align: center;
     margin: 0rem 5rem 5rem 5rem;
   }
+
   .sec-description-h3 {
     font-size: 2.3rem;
     padding-bottom: 1rem;
@@ -609,16 +563,6 @@ html{
     margin-bottom: 2.5rem;
   }
 
-  .sec-description-img {
-    padding-right: 10rem;
-    padding-left: 10rem;
-  }
-  
-  .sec-description-type {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-  }
-   
    .sec-description-color-squar1 {
     width: 8rem;
     height: 10rem;
@@ -689,20 +633,6 @@ html{
     font-size: 1.8rem;
     text-align: center;
     margin: 0rem 5rem 5rem 5rem;
-  }
-
-  .sec-description-img {
-    padding-top: 3rem;
-    padding-right: 15rem;
-    padding-bottom: 3rem;
-    padding-left: 15rem;
-  }
-
-  .sec-description-type {
-    padding-top: 1.5rem;
-    padding-right: 3.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 3.5rem;
   }
 
   .sec-description-color-squar1 {
