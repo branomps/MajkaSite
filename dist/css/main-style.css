@@ -215,11 +215,25 @@ html{
     color: #fff;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
+  #project-sec-description-fin {
+    width: 100%;
+    background-color: #d8d8d8;
+    color: #333;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+
   .sec-description-h3 {
     padding-bottom: 1rem;
     margin-top: 1.2rem;
     margin-bottom: 3rem;
     border-bottom: 0.1rem solid #fff;
+  }
+
+  .sec-description-h3-grey {
+    padding-bottom: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    border-bottom: 0.1rem solid #333;
   }
   
   img#sec-description-img-jt {
@@ -238,6 +252,14 @@ html{
     padding-left: 7rem;
   }
 
+  img#sec-description-img-fin{
+    width:90%;
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 0.5rem;
+    padding-left: 7rem;
+  }
+
   img#sec-description-type-jt {
     padding-top: 0.5rem;
     padding-right: 1.5rem;
@@ -246,6 +268,13 @@ html{
   }
 
   img#sec-description-type-aa {
+    padding-top: 1.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.5rem;
+  }
+  
+  img#sec-description-type-fin {
     padding-top: 1.5rem;
     padding-right: 2.5rem;
     padding-bottom: 1.5rem;
@@ -296,6 +325,14 @@ html{
     background-color: #000000;
   }
 
+  #color-fin-squar1 {
+    background-color: #171925;
+  }
+
+  #color-fin-squar2 {
+    background-color: #000000;
+  }
+
   .sec-description-color-squar1 {
     width: 7rem;
     height: 9rem;
@@ -310,6 +347,7 @@ html{
     width: 7rem;
     height: 9rem;
   }
+  
   /* END project styles *******************************************************************/
   .sec-description-color-num-block {
     margin-left: 1rem;
