@@ -208,7 +208,7 @@ html{
 
   #project-sec-description-antique-around {
     width: 100%;
-    background-color: #06361e;
+    background-color: #383B2A;
     color: #fff;
 
     padding: 1.5rem 1.5rem 3rem 1.5rem;
@@ -223,21 +223,21 @@ html{
 
   #project-sec-description-hunt {
     width: 100%;
-    background-color: #c0c0bf;
+    background-color: #e4e4e3;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
   
   #project-sec-description-java {
     width: 100%;
-    background-color: #f5ead6;
+    background-color: #e4d0ad;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
 
   #project-sec-description-icon {
     width: 100%;
-    background-color: #ffdb00;
+    background-color: #eeecec;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
@@ -361,7 +361,7 @@ html{
   }
 
   #color-icon-squar3 {
-    background-color: #d1860c;
+    background-color: #ffdb00;
   }
   .sec-description-color-squar1 {
     width: 7rem;
