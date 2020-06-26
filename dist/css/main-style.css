@@ -434,11 +434,17 @@ html{
     background-color: #fff;
     width: 9rem;
   }
-
+  
   .project-sec-img {
     margin-top: 2rem;
   }
-
+  #section-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
   /*** Footer Styles *******************************************************************************/
   footer section{
     height: 3.6rem;
