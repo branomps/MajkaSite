@@ -205,15 +205,39 @@ html{
     color: #fff;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
+
   #project-sec-description-antique-around {
     width: 100%;
     background-color: #06361e;
     color: #fff;
+
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
+
   #project-sec-description-fin {
     width: 100%;
     background-color: #d8d8d8;
+    color: #333;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+
+  #project-sec-description-hunt {
+    width: 100%;
+    background-color: #c0c0bf;
+    color: #333;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+  
+  #project-sec-description-java {
+    width: 100%;
+    background-color: #f5ead6;
+    color: #333;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+
+  #project-sec-description-icon {
+    width: 100%;
+    background-color: #ffdb00;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
@@ -225,7 +249,7 @@ html{
     border-bottom: 0.1rem solid #fff;
   }
 
-  .sec-description-h3-grey {
+  .sec-description-h3-grey { 
     padding-bottom: 1rem;
     margin-top: 1.2rem;
     margin-bottom: 3rem;
@@ -238,6 +262,14 @@ html{
     padding-right: 2rem;
     padding-bottom: 0.5rem;
     padding-left: 2rem;
+  }
+
+  img#sec-description-hunt{
+    width: 60%;
+  }
+
+  img#sec-description-icon{
+    width: 70%;
   }
 
   img.des-type {
@@ -264,7 +296,7 @@ html{
   }
   /* START project styles *******************************************************************/
   
-  #project-sec-img-bus {
+  #project-sec-img-vertical {
     height: 89%;
   }
 
@@ -300,6 +332,37 @@ html{
     background-color: #000000;
   }
 
+  #color-hunt-squar1 {
+    background-color: #ffffff;
+  }
+
+  #color-hunt-squar2 {
+    background-color: #000000;
+  }
+
+  #color-java-squar1 {
+    background-color: #8d2f20;
+  }
+
+  #color-java-squar2 {
+    background-color: #ffffff;
+  }
+
+  #color-java-squar3 {
+    background-color: #000000;
+  }
+
+  #color-icon-squar1 {
+    background-color: #35328a;
+  }
+
+  #color-icon-squar2 {
+    background-color: #e95114;
+  }
+
+  #color-icon-squar3 {
+    background-color: #d1860c;
+  }
   .sec-description-color-squar1 {
     width: 7rem;
     height: 9rem;
@@ -350,10 +413,16 @@ html{
 
   .sec-description-illus-sec {
     display: flex;
+    justify-content: space-evenly;
     width: 10rem;
     height: 10rem;
   }
-  
+
+  img#img-section-illust {
+     width: 15rem;
+     height: 10rem;
+     max-width: 500%;
+  }
   .sec-description-pattern-item1 {
     display: flex;
     width: 9rem;
@@ -369,6 +438,7 @@ html{
   .project-sec-img {
     margin-top: 2rem;
   }
+
   /*** Footer Styles *******************************************************************************/
   footer section{
     height: 3.6rem;
@@ -465,6 +535,10 @@ html{
 
   #about-text{
     margin: 3rem 0.5rem;
+  }
+
+  #project-sec-img-vertical {
+    height: 100%;
   }
   /* Project styles **************************************************************************************/
 
