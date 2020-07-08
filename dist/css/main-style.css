@@ -296,10 +296,6 @@ html{
   }
   /* START project styles *******************************************************************/
   
-  #project-sec-img-vertical {
-    height: 89%;
-  }
-
   #color-jt-squar1 {
     background-color: #D8E9BD;
   }
@@ -438,6 +434,7 @@ html{
   .project-sec-img {
     margin-top: 2rem;
   }
+  
   #section-img {
     display: flex;
     flex-direction: column;
@@ -543,9 +540,6 @@ html{
     margin: 3rem 0.5rem;
   }
 
-  #project-sec-img-vertical {
-    height: 100%;
-  }
   /* Project styles **************************************************************************************/
 
   #project-h1{
