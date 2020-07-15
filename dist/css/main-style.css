@@ -198,45 +198,40 @@ html{
     text-align: center;
     margin: 0rem 10rem 5rem 10rem;
   }
-
+  .project-width {
+    width: 97.25%; 
+  }
   #project-sec-description-joy-tea {
-    width: 100%;
     background-color: #0F2A40;
     color: #fff;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
 
   #project-sec-description-antique-around {
-    width: 100%;
     background-color: #383B2A;
     color: #fff;
-
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
 
   #project-sec-description-fin {
-    width: 100%;
     background-color: #d8d8d8;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
 
   #project-sec-description-hunt {
-    width: 100%;
     background-color: #e4e4e3;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
   
   #project-sec-description-java {
-    width: 100%;
     background-color: #e4d0ad;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
   }
 
   #project-sec-description-icon {
-    width: 100%;
     background-color: #f2eeeb;
     color: #333;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
@@ -466,6 +461,9 @@ html{
 /* Extra small devices (portrait phones, less than 576px)**************************************/
 @media (max-width: 575.98px) 
 {
+  .project-width {
+    width: 91%; 
+  }
   
   .flex-container-menu {
     display: flex;
@@ -624,6 +622,10 @@ html{
 /* Small devices (landscape phones, less than 768px)*******************************************/
 @media (min-width: 576px) and (max-width: 767.98px) 
 {
+  .project-width {
+    width: 94%; 
+  }
+
   #project-text {
     font-size: 1.8rem;
     text-align: center;
@@ -703,6 +705,10 @@ html{
 /* Medium devices (tablets, less than 992px)***************************************************/
 @media (min-width: 768px) and (max-width: 991.98px) 
 {
+  .project-width {
+    width: 96%; 
+  }
+
   #project-text {
     font-size: 1.8rem;
     text-align: center;
