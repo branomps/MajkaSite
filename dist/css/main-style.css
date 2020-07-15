@@ -2,7 +2,9 @@
 html{
     font-size: 10px;
   }
-
+body{
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+}
   /*** Navbar Styles ***********************************************************************************/
   nav{
     background-color: #fff;
@@ -437,6 +439,13 @@ html{
     justify-content: center;
     align-items: center;
   }
+
+  .spacer {
+    background-color:#fff;
+    height: 5rem;
+    width: 5rem;
+  }
+
   /*** Footer Styles *******************************************************************************/
   footer section{
     height: 3.6rem;
