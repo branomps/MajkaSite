@@ -1,10 +1,61 @@
 /*** Global Styles *******************************************************************************/ 
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
   }
+
 body{
   font-family: OpenSans, Arial, Helvetica, sans-serif;
 }
+
+.icon{
+  font-size: 5rem;
+}
+
+.arrow-up{
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+  fill: white;;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.social-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 2rem;
+  fill: #333;
+}
+
   /*** Navbar Styles ***********************************************************************************/
   nav{
     background-color: #fff;
@@ -445,6 +496,21 @@ body{
     height: 5rem;
     width: 5rem;
   }
+  .center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .my-work{
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .my-work-yellow {
+    font-size: 3.5rem;
+    color: #dfab00;
+  }
 
   /*** Footer Styles *******************************************************************************/
   footer section{
@@ -470,6 +536,12 @@ body{
 /* Extra small devices (portrait phones, less than 576px)**************************************/
 @media (max-width: 575.98px) 
 {
+  #button {
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+  }
+
   .project-width {
     width: 91%; 
   }
