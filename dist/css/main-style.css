@@ -12,16 +12,16 @@ body{
   font-size: 5rem;
 }
 
-.arrow-up{
-  width: 4.5rem;
-  height: 4.5rem;
+.arrow {
+  fill: #333;
 }
+
 
 #button {
   display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
+  background-color: #dfab00;
+  width: 35px;
+  height: 35px;
   text-align: center;
   border-radius: 4px;
   position: fixed;
@@ -32,12 +32,13 @@ body{
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
+  fill: none;
 }
 
 #button:hover {
   cursor: pointer;
   background-color: #333;
-  fill: white;;
+  fill: #fff
 }
 
 #button:active {
@@ -216,11 +217,6 @@ body{
       transition: .5s ease;
     }
 
-    .arrow{
-      font-size: 1.8rem;
-      padding-bottom: 0.3;
-      padding-left: 0.5rem;
-    }
 
 /* Projects styles *********************************************************************************/
   #project{
@@ -638,22 +634,22 @@ body{
   }
 
   .sec-description-color-squar1 {
-    width: 5rem;
+    width: 4.5rem;
     height: 7rem;
   }
 
   .sec-description-color-squar2 {
-    width: 5rem;
+    width: 4.5rem;
     height: 7rem;
   }
 
   .sec-description-color-squar3 {
-    width: 5rem;
+    width: 4.5rem;
     height: 7rem;
   }
   
   .sec-description-color-num-block {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
   .sec-description-color-number {
