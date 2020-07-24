@@ -37,11 +37,10 @@
       
       <main class="container block">
         <div id="top-line"></div>
-        <div id=space></div>
           <div class="row">
               <div id="contact-section" class="col-sm-12 col-md-6 offset-md-3">
                 <h1 id="yellow-header">CONTACT ME</h1>
-                  <form name="sentMessage" id="contact" novalidate" action="contact.php" method="POST" target="_self">
+                  <form name="sentMessage" id="contact" novalidate action="https://www1.ipage.com/scripts/formemail.html" method="POST" target="_self">
                       <div class="row control-group">
                           <div class=" about-section form-group col-sm-12 col-md-12">
                               <div class="control-group">
@@ -69,8 +68,13 @@
                               <br />
                               <div id="success"></div>
                               <div class="form-group col-sm-12 col-md-12 offset-md-4">
-                                  <button id="button-link" type="submit" value="Submit" class="btn btn-outline-dark">SEND  <span class="arrow">></span></button>
-                              </div>
+                                  <button id="button-link" type="submit" value="Submit Now" class="btn btn-send">
+                                    <span class="get-in-touch">SEND</span>
+                                    <svg class="arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 25">
+                                      <path  d="M2.47,25a2.4,2.4,0,0,1-1.54-.55,2.51,2.51,0,0,1-.39-3.51L16.33.94A2.45,2.45,0,0,1,18.23,0a2.59,2.59,0,0,1,1.93.91l16.28,20a2.53,2.53,0,0,1-.34,3.52,2.44,2.44,0,0,1-3.47-.34L18.28,6.46,4.39,24.06A2.42,2.42,0,0,1,2.47,25Z"/>
+                                    </svg>
+                                  </button>
+                                </div>
                           </div>
                   </form>
               </div>

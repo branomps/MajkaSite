@@ -12,14 +12,11 @@ body{
   font-size: 5rem;
 }
 
-.arrow {
-  fill: #333;
-}
-
 #button {
   display: inline-block;
   background-color: #dfab00;
   width: 35px;
+  fill: #333;
   height: 35px;
   text-align: center;
   border-radius: 4px;
@@ -31,12 +28,12 @@ body{
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
-  fill: none;
 }
 
 #button:hover {
   cursor: pointer;
   background-color: #333;
+  fill: #dfab00;
 }
 
 #button:active {
@@ -197,30 +194,35 @@ body{
       margin-top: 4rem;
       margin-bottom: 4rem;
     }
-    
+
     .arrow-left {
-      fill: #333;
-      width: 1.4rem;
       transform:rotate(90deg);
+      width: 1.4rem;
+      height: 1.4rem;
       margin-left: 1rem;
       margin-right: 1rem;
-    }
-    
+    } 
 
     #button-link{
       text-decoration: none;
       color: #333;
       background-color: #dfab00;
+      fill: #333;
       padding: 0.3rem 1rem;
       margin: 3rem 0rem;
       border: 0rem;
       border-radius: 3rem;
+      -moz-box-shadow:    1px 1px 1px 1px #333;
+      -webkit-box-shadow: 1px 1px 1px 1px #333;
+      box-shadow:         1px 1px 1px 1px #333;
     }
 
     #button-link:hover {
       color: #dfab00;
       background-color: #333;
+      fill: #dfab00;
       transition: .5s ease;
+      box-shadow: none;
     }
 
     .get-in-touch {
@@ -231,6 +233,14 @@ body{
       line-height: 1.9;
     }
 
+   .btn-send > .get-in-touch, .arrow-left{
+     font-size: 1.2rem;
+     width: 1.4rem;
+      height: 1.4rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      padding-left:  0.5rem;
+   }
 /* Projects styles *********************************************************************************/
   #project{
     display: flex;
