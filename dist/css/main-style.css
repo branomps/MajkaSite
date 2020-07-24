@@ -201,6 +201,7 @@ body{
       height: 1.4rem;
       margin-left: 1rem;
       margin-right: 1rem;
+      padding-left: 0rem;
     } 
 
     #button-link{
@@ -233,7 +234,7 @@ body{
       line-height: 1.9;
     }
 
-   .btn-send > .get-in-touch, .arrow-left{
+   .btn-send > .get-in-touch, .btn-send > .arrow-left{
      font-size: 1.2rem;
      width: 1.4rem;
       height: 1.4rem;
@@ -241,6 +242,7 @@ body{
       margin-right: 0.5rem;
       padding-left:  0.5rem;
    }
+   
 /* Projects styles *********************************************************************************/
   #project{
     display: flex;
