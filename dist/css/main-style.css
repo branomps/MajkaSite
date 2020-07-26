@@ -182,8 +182,8 @@ body{
     }
 
     div#space {
-      width: 5rem;
-      height: 5rem;
+      width: 1rem;
+      height: 1rem;
       margin-bottom: 5rem;
     }
 
@@ -517,6 +517,7 @@ body{
     height: 5rem;
     width: 5rem;
   }
+
   .center {
     display: flex;
     flex-direction: row;
@@ -524,15 +525,17 @@ body{
     justify-content: center;
     align-content: center;
   }
+
   .my-work{
     font-size: 2rem;
     margin-top: 3rem;
   }
+
   .my-work-yellow {
     font-size: 3.5rem;
     color: #dfab00;
   }
-
+   
   /*** Footer Styles *******************************************************************************/
   footer section{
     height: 3.6rem;
@@ -682,8 +685,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 1rem;
-    width: 3rem;
+    font-size: 0.9rem;
+    width: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
