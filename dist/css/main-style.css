@@ -252,7 +252,7 @@ body{
   }
 
   #project-h1{
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #333;
     margin-top: 3rem;
@@ -260,7 +260,7 @@ body{
   }
 
   #project-h2 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 600;
     font-style: italic;
     color: #dfab00;
@@ -363,6 +363,16 @@ body{
     flex-wrap: nowrap;
     align-items: center;
   }
+
+  .illus-icon {
+    width: 7rem;
+  }
+
+  .illus-pattern {
+    width: 10rem;
+    background-color: #fff;
+  }
+
   /* START project styles *******************************************************************/
   
   #color-jt-squar1 {
@@ -486,7 +496,7 @@ body{
   img#img-section-illust {
      width: 15rem;
      height: 10rem;
-     max-width: 500%;
+     max-width: 100%;
   }
   .sec-description-pattern-item1 {
     display: flex;
@@ -496,7 +506,6 @@ body{
 
   .sec-description-pattern-item2{
     display: flex;
-    background-color: #fff;
     width: 9rem;
   }
   
